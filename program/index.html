@@ -8,78 +8,83 @@
 <body>
     <h1>JavaScript</h1>
     <script>
-        console.log(5);
+        document.write(5 +"<br>")  ;
         //String Calculation
-        console.log("String Calculation")
-        console.log("This is Java Script Program");
+         
+        document.write("2 plus 2 equals" + 2 + 2 +"<br>");
+        document.write("2" + 2 + "2" + 2 +"<br>");
+        document.write(2+2+"5<br>");
+       
+        document.write("String Calculation"+"<br>")
+        document.write("This is Java Script Program"+"<br>");
         const st1 = "String" + 5;
-        console.log(st1);
+        document.write(st1+"<br>");
         const st2 = 5 +"5";
-        console.log(st2);
+        document.write(st2+"<br>");
         const st3 = "5"+"5"
-        console.log(st3)
-        console.log(typeof(st3));
-        console.log(typeof(st2))
+        document.write(st3+"<br>")
+        document.write(typeof(st3)+"<br>");
+        document.write(typeof(st2)+"<br>")
         //Boolean type
-        console.log("Boolean type")
+        document.write("Boolean type"+"<br>")
         const t = true;
         const f = false;
-        console.log(typeof(t,f))
+        document.write(typeof(t,f)+"<br>")
         //Number type
-        console.log("Number type")
-        console.log(5*5-9+2/8*1.5*8+9*1/6*9);
+        document.write("Number type"+"<br>")
+        document.write(5*5-9+2/8*1.5*8+9*1/6*9);
         const hexa1 = 0x1;
         const hexa2 = 0x2;
         const hexaValue = hexa1 + hexa2;
-        console.log(hexaValue);
-        console.log(typeof(hexaValue));
+        document.write(hexaValue+"<br>");
+        document.write(typeof(hexaValue)+"<br>");
         //comparision
-        console.log("Comparision Operator")
-        console.log(6>8);
-        console.log(6<8);
-        console.log("Abc">"Zxy");
-        console.log("Itchy" != "Scratchy");
-        console.log("Apple" == "Orange");
-        console.log(NaN =NaN);
+        document.write("Comparision Operator"+"<br>")
+        document.write(6>8);
+        document.write(6<8);
+        document.write("Abc">"Zxy"+"<br>");
+        document.write("Itchy" != "Scratchy"+"<br>");
+        document.write("Apple" == "Orange"+"<br>");
+        document.write(NaN =NaN +"<br>");
         //Logical Operators
-        console.log("Logical Operators")
-        console.log(true && false);
-        console.log(true && true);
-        console.log(true || false);
-        console.log(true || true);
-        console.log("X:",1+1 == 2 && 10 * 10 > 5);
-        console.log(true ? 1 :2);
-        console.log(false ? 1 : 2);
+        document.write("Logical Operators"+"<br>")
+        document.write(true && false+"<br>");
+        document.write(true && true+"<br>");
+        document.write(true || false+"<br>");
+        document.write(true || true+"<br>");
+        document.write("X:",1+1 == 2 && 10 * 10 > 5+"<br>");
+        document.write(true ? 1 :2+"<br>");
+        document.write(false ? 1 : 2+"<br>");
         //Automatic Type Conversion
-        console.log("Automatic Type Conversion")
-        console.log("N:", 8*null);
-        console.log("5" -1);
-        console.log("5"+1);
-        console.log("five"*2);
-        console.log(false == 0);
-        console.log(null == undefined);
-        console.log(null == 0);
+        document.write("Automatic Type Conversion"+"<br>")
+        document.write("N:", 8*null+"<br>");
+        document.write("5" -1+"<br>");
+        document.write("5"+1+"<br>");
+        document.write("five"*2+"<br>");
+        document.write(false == 0+"<br>");
+        document.write(null == undefined+"<br>");
+        document.write(null == 0+"<br>");
         //Short Circuiting of logical operators
-        console.log("Short Circuiting of logical operators")
-        console.log(null || "user")
-        console.log("Agnes" || "user")
+        document.write("Short Circuiting of logical operators"+"<br>")
+        document.write(null || "user"+"<br>")
+        document.write("Agnes" || "user"+"<br>" )
         //Binding
-        console.log("Binding");
+        document.write("Binding"+"<br>");
         let mood ="light"
-        console.log(mood);
+        document.write(mood+"<br>");
         mood = "Dark";
-        console.log(mood);
+        document.write(mood+"<br>");
 
         let ld =150;
         ld = ld -50;
-        console.log("ld:" + ld);
+        document.write("ld:" + ld+"<br>");
 
         let one =1, two = 2;
-        console.log(one+two);
+        document.write(one+two+"<br>");
 
         var name = "Ayda";
         const greeting = "Hello "
-        console.log(greeting + name)
+        document.write(greeting + name +"<br>")
         
         
     </script>

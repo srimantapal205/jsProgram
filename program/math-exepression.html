@@ -8,7 +8,7 @@
 <body>
     
     <script>
-        console.log("Math Expression");
+        console.log("<br>Math Expression");
         document.write(5 + 6 + "</br>");
         var num = 1;
         num= num+1;//2
@@ -27,14 +27,26 @@
         // console.log("Minus2="+ --num);
         // //console.log()
 
-        const a = 8,b=5;
+        const a = 8,b=5, c = 9;
         const x = (a+b)*(a-b);
         const y = a*a+2*a*b+b*b;
         document.write(x+"<br>");
         document.write(y+"<br>");
         const z = ((a+b/2)*(a+b/2))-((a-b/2)*(a-b/2));
-        document.write(z);
-
+        document.write(z+"<br>");
+        const m = a*a*a+3*a*a*b+3*a*b*b+b*b;
+        document.write(m+"<br>");
+        const o = (a*a*a)+(b*b*b)+(c*c*c)-(3*a*b*c);
+        const o2 = (a+b+c)*((a*a)+(b*b)+(c*c)-(a*b)-(b*c)-(a*c))
+        document.write(o+"<br>");
+        document.write(o2+"<br>");
+        document.write("Some of first 10 natural numbers" +"<br>");
+        const n =10,
+        na = n*(n+1)/2;
+        document.write(na +"<br>");
+        document.write("Some of first 100 squares numbers" +"<br>");
+        sq = n*(n+1)*((2*n)+1)/6;
+        document.write("Total Square Value:"+sq +"<br>");
     </script>
 </body>
 </html>
